@@ -213,10 +213,10 @@ th {
   text-align: inherit;
   text-align: -webkit-match-parent;
 }
-label {
+/* label {
   display: inline-block;
   margin-bottom: 0.5rem;
-}
+} */
 button {
   border-radius: 0;
 }
@@ -9685,3 +9685,39 @@ img::-moz-selection {
   border: none;
   background: none;
 }
+
+.mx-auto .down2app{
+  width: 730px;
+  display: flex;
+}
+
+.btn1{
+  margin: auto;
+}
+.btn2{
+  margin: auto;
+}
+
+.imgg1{
+  margin: auto;
+}
+.imgg2{
+  margin: auto;
+}
+.imgdown{
+  width: 730px;
+  height: 300px;
+  display: flex;
+}
+
+.remember{
+  width: 50%;
+  float: left;
+}
+.forg{
+  width: 50%;
+  float: right;
+}
+
+
+
