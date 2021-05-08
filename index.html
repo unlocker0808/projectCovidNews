@@ -5,8 +5,14 @@
     <title>Project team 4</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="fonts/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Cabin:700"
+    />
     <link rel="stylesheet" href="css/Footer-Dark.css" />
     <link rel="stylesheet" href="css/login.css" />
     <link rel="stylesheet" href="css/signUp.css" />
@@ -47,21 +53,20 @@
         <button
           class="btn btn-primary border-dark pull-right"
           type="button"
-          style="background: var(--red)"
+          style="background: var(--red); border-radius: 10px;"
           onclick="openAndClose1()"
-          style="width: auto"
+          
         >
           <i class="fa fa-sign-in"></i>
-          login
+          Login
         </button>
         <button
           class="btn btn-primary border-dark pull-right"
           type="button"
-          style="background: var(--green)"
+          style="background: var(--green); border-radius: 10px"
           onclick="openAndClose2()"
-          style="width: auto"
         >
-          sign up
+          Sign
         </button>
       </div>
     </nav>
@@ -195,7 +200,7 @@
         </div>
       </form>
     </div>
-    <header class="masthead" style="background-image: url('img/intro-bg.jpg')">
+    <!-- <header class="masthead" style="background-image: url('img/intro-bg.jpg');">
       <div class="intro-body">
         <div class="container">
           <div class="row">
@@ -205,14 +210,13 @@
                 A free, responsive, one page Bootstrap theme.<br />Created with
                 love.
               </p>
-              <a class="btn btn-link btn-circle" role="button" href="#about"
-                ><i class="fa fa-angle-double-down animated"></i
-              ></a>
+              <a class="btn btn-link btn-circle" role="button" href="#about"><i
+                  class="fa fa-angle-double-down animated"></i></a>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </header> -->
     <section class="text-center content-section" id="home">
       <div class="container">
         <div class="row">
@@ -349,35 +353,29 @@
             <h2>Download app</h2>
             <div class="imgdown">
               <div class="imgg1">
-                <img src="img/unnamed.png" class="bluez" />
+                <img src="img/unnamed.png" class="imgdownstyle" />
               </div>
               <div class="imgg2">
-                <img src="img/unnamed (1).png" class="nco" />
+                <img src="img/unnamed (1).png" class="imgdownstyle" />
               </div>
             </div>
             <div class="down2app">
               <div class="btn1">
                 <button
-                  class="btn btn-primary btn-lg btn-default bluezone"
+                  class="btn btn-primary btn-lg btn-default btndown"
                   type="button"
+                  onclick="location.href='https://bluezone.gov.vn/';"
                 >
-                  <span class="network-name1"
-                    ><a target="_blank" href="https://bluezone.gov.vn/"
-                      ><i class="fa fa-download"></i> down bluezone</a
-                    >
-                  </span>
+                  <i class="fa fa-download"></i> download bluezone
                 </button>
               </div>
               <div class="btn2">
                 <button
-                  class="btn btn-primary btn-lg btn-default ncovi"
+                  class="btn btn-primary btn-lg btn-default btndown"
                   type="button"
+                  onclick="location.href='https://ncovi.vnpt.vn/';"
                 >
-                  <span class="network-name"
-                    ><a target="_blank" href="https://ncovi.vnpt.vn/"
-                      ><i class="fa fa-download"></i> down ncovi</a
-                    ></span
-                  >
+                  <i class="fa fa-download"></i> download ncovi
                 </button>
               </div>
             </div>
@@ -389,15 +387,19 @@
       <div class="container">
         <div class="row">
           <div class="col item social">
-            <a
-              target="_blank"
-              href="https://github.com/unlocker0808/projectCovidNews"
-              ><i class="fa fa-github"></i></a
-            ><a target="_blank" href="https://hci2021group04.tk/"
-              ><i class="fa fa-globe"></i></a
-            ><a target="_blank" href="https://hci2021group04.tk/member"
-              ><i class="fa fa-group"></i
-            ></a>
+            <div class="animationn">
+              <h1 style="color: white; margin: auto">Contact us</h1>
+              <p style="margin: 10px">Welcome to team 4</p>
+              <a
+                target="_blank"
+                href="https://github.com/unlocker0808/projectCovidNews"
+                ><i class="fa fa-github"></i></a
+              ><a target="_blank" href="https://hci2021group04.tk/"
+                ><i class="fa fa-globe"></i></a
+              ><a target="_blank" href="https://hci2021group04.tk/member"
+                ><i class="fa fa-group"></i
+              ></a>
+            </div>
           </div>
         </div>
         <p class="copyright">Design by Team 4</p>
@@ -408,5 +410,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="js/grayscale.js"></script>
     <script src="js/myFunction.js"></script>
+    <script src="js/footer.js"></script>
   </body>
 </html>
