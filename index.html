@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>Project team 4</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="fonts/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="fonts/font-awesome.min.css" /> 
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
@@ -13,13 +13,20 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Cabin:700"
     />
-    <link rel="stylesheet" href="css/Footer-Dark.css" />
+    <!-- <link rel="stylesheet" href="css/Footer-Dark.css" />
     <link rel="stylesheet" href="css/login.css" />
-    <link rel="stylesheet" href="css/signUp.css" />
+    <link rel="stylesheet" href="css/signUp.css" /> -->
     <link rel="icon" href="img/coronavirus.png" />
+
+    <link rel="stylesheet" href="css/please.css" />
+    <link rel="stylesheet" href="css/mainCSS.css">
+    <link rel="stylesheet" href="css/TheWorld.css">
+    <link rel="stylesheet" href="css/viet.css">
+    <link rel="stylesheet" href="css/vaccin.css">
   </head>
 
   <body>
+    <div class="bootstrapMain">
     <nav
       class="navbar navbar-light navbar-expand-md fixed-top"
       id="mainNav"
@@ -53,9 +60,8 @@
         <button
           class="btn btn-primary border-dark pull-right"
           type="button"
-          style="background: var(--red); border-radius: 10px;"
+          style="background-color: red; border-radius: 10px"
           onclick="openAndClose1()"
-          
         >
           <i class="fa fa-sign-in"></i>
           Login
@@ -63,10 +69,10 @@
         <button
           class="btn btn-primary border-dark pull-right"
           type="button"
-          style="background: var(--green); border-radius: 10px"
+          style="background-color: green; border-radius: 10px;"
           onclick="openAndClose2()"
         >
-          Sign
+          Sign up
         </button>
       </div>
     </nav>
@@ -200,153 +206,1223 @@
         </div>
       </form>
     </div>
-    <!-- <header class="masthead" style="background-image: url('img/intro-bg.jpg');">
-      <div class="intro-body">
-        <div class="container">
+    </div>
+      <div class="bootstrapHome" id="home">
+        <!-- <a class="scrollToTop" href="/#"><i class="fa fa-angle-up"></i></a> -->
+        <section id="sliderSection">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h1 class="brand-heading">grayscale</h1>
-              <p class="intro-text">
-                A free, responsive, one page Bootstrap theme.<br />Created with
-                love.
-              </p>
-              <a class="btn btn-link btn-circle" role="button" href="#about"><i
-                  class="fa fa-angle-double-down animated"></i></a>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+              <div class="slick_slider">
+                <div class="single_iteam">
+                  <a href="/#"> <img src="imagess/slider1.jpg" alt="" /></a>
+                  <div class="slider_article">
+                    <h2>
+                      <a class="slider_tittle" href="/#"
+                        >Kích hoạt lại chốt kiểm soát, khẩn tìm người đến các
+                        bệnh viện có người mắc COVID-19
+                      </a>
+                    </h2>
+                    <p>
+                      (Thứ sáu, 07/05/2021 16:40)
+                      <br />
+                      Cùng với việc kích hoạt lại các chốt kiểm soát liên ngành
+                      tại tất cả cửa ngõ từ 12h trưa nay, Quảng Ninh ban hành
+                      thông báo khẩn tìm những người đến ...
+                    </p>
+                  </div>
+                </div>
+                <div class="single_iteam">
+                  <a href="/#"> <img src="imagess/slider2.jpg" alt="" /></a>
+                  <div class="slider_article">
+                    <h2>
+                      <a class="slider_tittle" href="/#"
+                        >Các ca COVID-19 ở Hà Nội, Hải Dương thuộc biến chủng
+                        của Anh và Ấn Độ</a
+                      >
+                    </h2>
+                    <p>
+                      (Thứ sáu, 07/05/2021 16:39)
+                      <br />
+                      Kết quả giải trình tự gene ngày 7/5 của Viện Vệ sinh dịch
+                      tễ Trung ương trên mẫu bệnh phẩm của bệnh nhân mắc
+                      COVID-19 ở Hà Nội và Hải Dương cho thấy...
+                    </p>
+                  </div>
+                </div>
+                <div class="single_iteam">
+                  <a href="/#"> <img src="imagess/slider3.jpg" alt="" /></a>
+                  <div class="slider_article">
+                    <h2>
+                      <a class="slider_tittle" href="/#"
+                        >Ca mắc tăng mỗi ngày, BV tuyến đầu Bắc Ninh làm gì để
+                        bảo vệ bệnh nhân?</a
+                      >
+                    </h2>
+                    <p>
+                      (Thứ sáu, 07/05/2021 16:37)
+                      <br />
+                      Theo Sở Y tế Bắc Ninh, trên địa bàn tỉnh hiện có 5/8
+                      huyện, thị, thành phố có người mắc COVID-19. UBND tỉnh Bắc
+                      Ninh đã ra Chỉ thị thực hiện giãn cách xã hội với 5
+                      huyện...
+                    </p>
+                  </div>
+                </div>
+                <div class="single_iteam">
+                  <a href="/#"> <img src="imagess/slider4.jpg" alt="" /></a>
+                  <div class="slider_article">
+                    <h2>
+                      <a class="slider_tittle" href="/#"
+                        >Học sinh TP.HCM ngừng đến trường từ ngày 10-5</a
+                      >
+                    </h2>
+                    <p>
+                      (Thứ sáu, 07/05/2021 16:39)
+                      <br />
+                      Ngày 07/5/2021, UBND TP.HCM có Công văn 1415/UBND-VX về
+                      tạm ngưng các hoạt động dạy...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="latest_post">
+                <h2><span>XEM NHIỀU</span></h2>
+                <div class="latest_post_container">
+                  <div id="prev-button"><i class="fa fa-chevron-up"></i></div>
+                  <ul class="latest_postnav">
+                    <li>
+                      <div class="media">
+                        <a href="/#" class="media-left">
+                          <img alt="" src="imagess/post1.jpg" />
+                        </a>
+                        <div class="media-body">
+                          <a href="/#" class="catg_title"
+                            >CẬP NHẬT COVID-19 ngày 7-5: Hà Nội, TP.HCM, Hưng
+                            Yên, Bắc Ninh, Phú Thọ thêm 14 ca</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <a href="/#" class="media-left">
+                          <img alt="" src="imagess/post2.jpg" />
+                        </a>
+                        <div class="media-body">
+                          <a href="/#" class="catg_title">
+                            Bến Tre: Hiệu trưởng đi cùng chuyến bay với ca
+                            COVID, hàng trăm học sinh phải nghỉ học</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <a href="/#" class="media-left">
+                          <img alt="" src="imagess/post3.jpg" />
+                        </a>
+                        <div class="media-body">
+                          <a href="/#" class="catg_title">
+                            TP.HCM khoanh vùng khu ẩm thực Hồ Thị Kỷ sau ca tái
+                            dương tính COVID-19</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <a href="/#" class="media-left">
+                          <img alt="" src="imagess/post4.jpg" />
+                        </a>
+                        <div class="media-body">
+                          <a href="/#" class="catg_title"
+                            >Hà Nội thêm 3 ca COVID-19, 1 ca chăm chồng ở bệnh
+                            viện, 1 ca mới đi Đà Nẵng về</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media">
+                        <a href="/#" class="media-left">
+                          <img alt="" src="imagess/post5.jpg" />
+                        </a>
+                        <div class="media-body">
+                          <a href="/#" class="catg_title">
+                            Một bác sĩ Bệnh viện Quân y 105 mắc COVID-19</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <div id="next-button"><i class="fa fa-chevron-down"></i></div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
+        <section id="contentSection">
+          <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2">
+              <div class="left_content">
+                <div class="single_post_content">
+                  <h2><span>Tình hình trong nước</span></h2>
+                  <div class="single_post_content_left">
+                    <ul class="business_catgnav wow fadeInDown">
+                      <li>
+                        <figure class="bsbig_fig">
+                          <a href="/#" class="featured_img">
+                            <img alt="" src="imagess/featured_img1.jpg" />
+                            <span class="overlay"></span>
+                          </a>
+                          <figcaption>
+                            <a href="/#">Bản tin chiều ngày 7/5</a>
+                          </figcaption>
+                          <p>
+                            Bộ Y tế cho biết có thêm 46 ca mắc COVID-19, trong
+                            đó 6 ca nhập cảnh được cách ly ngay, 40 ca cộng
+                            đồng, trong đó riêng Bệnh viện K có 11 ca. Đến nay,
+                            Việt Nam ghi nhận tổng cộng 3.137 bệnh nhân...
+                          </p>
+                        </figure>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="single_post_content_right">
+                    <ul class="spost_nav">
+                      <li>
+                        <div class="media wow fadeInDown">
+                          <a href="/#" class="media-left">
+                            <img alt="" src="imagess/single_post_img1.jpg" />
+                          </a>
+                          <div class="media-body">
+                            <a href="/#" class="catg_title">
+                              Việt Nam có ca tử vong đầu tiên do sốc phản vệ sau
+                              tiêm phòng vắc xin Covid-19</a
+                            >
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media wow fadeInDown">
+                          <a href="/#" class="media-left">
+                            <img alt="" src="imagess/single_post_img2.jpg" />
+                          </a>
+                          <div class="media-body">
+                            <a href="/#" class="catg_title"
+                              >Hướng dẫn giám sát phòng, chống dịch Covid-19 tại
+                              TPHCM (cập nhật 14h ngày 07/5/2021)</a
+                            >
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media wow fadeInDown">
+                          <a href="/#" class="media-left">
+                            <img alt="" src="imagess/single_post_img3.jpg" />
+                          </a>
+                          <div class="media-body">
+                            <a href="/#" class="catg_title">
+                              Thông báo Kết luận của Phó Thủ tướng Vũ Đức Đam về
+                              phòng, chống Covid-19</a
+                            >
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="media wow fadeInDown">
+                          <a href="/#" class="media-left">
+                            <img alt="" src="imagess/single_post_img4.jpg" />
+                          </a>
+                          <div class="media-body">
+                            <a href="/#" class="catg_title">
+                              Thêm nhiều nơi ở Hà Nội, Phú Thọ, Nam Định bị
+                              phong tỏa</a
+                            >
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="single_post_content">
+                  <h2><span>Lan tỏa yêu thương</span></h2>
+                  <ul class="photograph_nav wow fadeInDown">
+                    <li>
+                      <div class="photo_grid">
+                        <figure class="effect-layla">
+                          <a
+                            class="fancybox-buttons"
+                            data-fancybox-group="button"
+                            href="imagess/photograph_img1.jpg"
+                            title="Photography Ttile 1"
+                          >
+                            <img src="imagess/photograph_img1.jpg" alt=""
+                          /></a>
+                        </figure>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="photo_grid">
+                        <figure class="effect-layla">
+                          <a
+                            class="fancybox-buttons"
+                            data-fancybox-group="button"
+                            href="imagess/photograph_img2.jpg"
+                            title="Photography Ttile 2"
+                          >
+                            <img src="imagess/photograph_img2.jpg" alt="" />
+                          </a>
+                        </figure>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="photo_grid">
+                        <figure class="effect-layla">
+                          <a
+                            class="fancybox-buttons"
+                            data-fancybox-group="button"
+                            href="imagess/photograph_img3.jpg"
+                            title="Photography Ttile 3"
+                          >
+                            <img src="imagess/photograph_img3.jpg" alt="" />
+                          </a>
+                        </figure>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="photo_grid">
+                        <figure class="effect-layla">
+                          <a
+                            class="fancybox-buttons"
+                            data-fancybox-group="button"
+                            href="imagess/photograph_img4.jpg"
+                            title="Photography Ttile 4"
+                          >
+                            <img src="imagess/photograph_img4.jpg" alt="" />
+                          </a>
+                        </figure>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="photo_grid">
+                        <figure class="effect-layla">
+                          <a
+                            class="fancybox-buttons"
+                            data-fancybox-group="button"
+                            href="imagess/photograph_img5.jpg"
+                            title="Photography Ttile 5"
+                          >
+                            <img src="imagess/photograph_img5.jpg" alt="" />
+                          </a>
+                        </figure>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="photo_grid">
+                        <figure class="effect-layla">
+                          <a
+                            class="fancybox-buttons"
+                            data-fancybox-group="button"
+                            href="imagess/photograph_img6.jpg"
+                            title="Photography Ttile 6"
+                          >
+                            <img src="imagess/photograph_img6.jpg" alt="" />
+                          </a>
+                        </figure>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <aside class="right_content">
+                <div class="single_sidebar">
+                  <h2><span>Tình hình thế giới</span></h2>
+                  <ul class="spost_nav">
+                    <li>
+                      <div class="media wow fadeInDown">
+                        <a href="/#" class="media-left">
+                          <img alt="" src="imagess/single_sidebar_img1.jpg" />
+                        </a>
+                        <div class="media-body">
+                          <a href="/#" class="catg_title">
+                            Nga phê duyệt vaccine Sputnik V một liều</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown">
+                        <a href="/#" class="media-left">
+                          <img alt="" src="imagess/single_sidebar_img2.jpg" />
+                        </a>
+                        <div class="media-body">
+                          <a href="/#" class="catg_title">
+                            Ca nhiễm và tử vong do Covid-19 ở Mỹ giảm 5 lần</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown">
+                        <a href="/#" class="media-left">
+                          <img alt="" src="imagess/single_sidebar_img3.jpg" />
+                        </a>
+                        <div class="media-body">
+                          <a href="/#" class="catg_title">
+                            Ấn Độ xoay xở khống chế Covid-19</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="media wow fadeInDown">
+                        <a href="/#" class="media-left">
+                          <img alt="" src="imagess/single_sidebar_img4.jpg" />
+                        </a>
+                        <div class="media-body">
+                          <a href="/#" class="catg_title">
+                            Số ca mắc COVID-19 ở Campuchia tăng vọt, Thái Lan
+                            đạt kỷ lục người nhiễm mới</a
+                          >
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="single_sidebar wow fadeInDown">
+                  <h2><span>Câu hỏi thường gặp</span></h2>
+                  <ul>
+                    <li><a href="/#">COVID-19 có các triệu chứng gì?</a></li>
+                    <li>
+                      <a href="/#"
+                        >Các dấu hiệu nào trên xét nghiệm và phim chụp là đặc
+                        trưng của COVID-19?
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/#"
+                        >Vật nuôi có thể nhiễm COVID-19 hoặc truyền bệnh này
+                        sang người không?</a
+                      >
+                    </li>
+                    <li><a href="/#">Khi nào sẽ có vắc xin COVID-19?</a></li>
+                    <li>
+                      <a href="/#">Bệnh do COVID-19 kéo dài trong bao lâu?</a>
+                    </li>
+                    <li>
+                      <a href="/#"
+                        >Tỉ lệ ca mắc COVID-19 là người mang vi rút không có
+                        triệu chứng là bao nhiêu?</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/#"
+                        >Tôi cần phải có biện pháp phòng ngừa gì để ngăn ngừa
+                        COVID-19 trên thực hành lâm sàng?</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
       </div>
-    </header> -->
-    <section class="text-center content-section" id="home">
-      <div class="container">
+    </div>
+    <div class="viet" id="vietnamese">
+      <div class="container" style="padding: 15px;">
+        <section>
+            <div style="padding: 0px;">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <p style="color: var(--red);">Nguồn tin tức được lấy từ:&nbsp;<a href="https://ncov.moh.gov.vn/">ncov.moh.gov.vn<br></a></p>
+                                    <h1 style="margin: 0px;height: 60px;border-style: none;">Tin tức mới trong ngày</h1>
+                                    <div style="border-style: none;text-align: center;">
+                                        <div class="row" style="border-style: solid;border-bottom-style: solid;">
+                                            <div class="col">
+                                                <h3 style="text-align: center;color: var(--red);">Việt Nam</h3>
+                                            </div>
+                                        </div>
+                                        <div class="row" style="border-style: solid;border-top-style: none;">
+                                            <div class="col" style="border-style: none;border-right-style: solid;">
+                                                <h5 style="color: var(--red);">Số ca nhiễm</h5>
+                                                <h4 style="color: var(--red);">3245</h4>
+                                            </div>
+                                            <div class="col" style="border-style: none;border-right-style: solid;">
+                                                <h5 style="color: var(--yellow);">Đang điều trị</h5>
+                                                <h4 style="color: var(--yellow);">604</h4>
+                                            </div>
+                                            <div class="col" style="border-style: none;border-right-style: solid;">
+                                                <h5 style="color: var(--indigo);">Đã khỏi</h5>
+                                                <h4 style="color: var(--indigo);">2062</h4>
+                                            </div>
+                                            <div class="col" style="border-style: none;">
+                                                <h5>Tử vong</h5>
+                                                <h4>35</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4><strong>Hà Nội có 5 ca dương tính mới, 4 ca là học sinh.</strong><br></h4>
+                                    <p>(Chủ nhật, 09/05/2021 08:49)<br></p><img src="assets/img/hinh1.png" style="width: 600px;">
+                                    <p><strong>Trong 5 ca dương tính SARS-CoV-2 vừa phát hiện do CDC Hà Nội thực hiện, có 4 ca là học sinh cấp 3</strong><br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <h4><strong>Lịch trình chi tiết ca dương tính mới phát hiện ở Công ty Shin young Việt Nam trong khu công nghiệp Vân Trung</strong><br></h4>
+                                    <p>(Chủ nhật, 09/05/2021 10:29)<br></p><img src="assets/img/hinh2.png" style="width: 600px;">
+                                    <p><strong>Hai nữ công nhân Công ty TNHH Shin young Việt Nam vừa phát hiện dương tính SARS-CoV-2</strong><br></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div>
+                                    <h4><strong>Toàn bộ F1 liên quan đến nữ nhân viên chùa Tam Chúc mắc COVID-19 có kết quả âm tính&nbsp;</strong><br></h4>
+                                    <p>(Chủ nhật, 09/05/2021 10:41)<br></p><img src="assets/img/hinh3.png" style="width: 600px;">
+                                    <p><strong>Trong thời gian 24 giờ qua, CDC tỉnh Hà Nam đã thực hiện xét nghiệm hàng nghìn mẫu liên quan đến nữ nhân viên chùa Tam Chúc mắc COVID-19</strong><br></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" style="margin: 20px;">
+                        <div class="text-center" style="background: #2a3477;width: 250px;height: 120px;margin-left: 0px;">
+                            <h3 class="text-center" style="color: var(--white);">Đường dây nóng</h3>
+                            <h1 class="text-center" style="color: var(--white);"><strong>19009095</strong></h1>
+                        </div>
+                        <h1 class="text-left">Tin nổi bậc</h1>
+                        <div class="row">
+                            <div class="col">
+                                <div><img src="assets/img/hinh10.png" style="width: 260px;height: 180px;">
+                                    <p>"Bảo vệ" bệnh viện tuyến cuối của quảng ninh</p>
+                                    <div class="row" style="padding: 10px;">
+                                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/hinh4.png"></div>
+                                        <div class="col">
+                                            <p class="description">"Bắt giam 3 đối tượng giúp nhóm người Trung Quốc" cư trú&nbsp;trái phép tại việt nam&nbsp;<br></p>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="padding: 10px;">
+                                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/hinh5.png"></div>
+                                        <div class="col">
+                                            <p class="description">"Biến" phòng cách ly thành phòng đẻ để cứu hai sản phụ</p>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="padding: 10px;">
+                                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/hinh6.png"></div>
+                                        <div class="col">
+                                            <p class="description">"Bỏ phố về quê" để tránh COVID-19 là phản khoa học, phản tác dụng<br></p>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="padding: 10px;">
+                                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/hinh7.png"></div>
+                                        <div class="col">
+                                            <p class="description">"Ca mắc COVID-19 tại gò vấp" lan truyền trên mạng xã hội là không chính xác</p>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="padding: 10px;">
+                                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/hinh8.png"></div>
+                                        <div class="col">
+                                            <p class="description">"Cách biệt xã hội"-khái niệm mới nên biết nếu muốn an toàn thời COVID-19</p>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="padding: 10px;">
+                                        <div class="col-md-12 col-lg-5"><img class="img-fluid" src="assets/img/hinh9.png"></div>
+                                        <div class="col">
+                                            <p class="description">"Công an Hải Dương tìm những người đến 9 địa điểm sau liên quan đến ca mắc COVID-19"</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+    <div class="theWorld" id="world" >
+      <div class="container" style="width: 1200;">
         <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>About grayscale</h2>
-            <p>
-              Grayscale is a free Bootstrap theme. It can be yours right now,
-              simply download the template on&nbsp;<a href="#"
-                >the preview page</a
-              >. The theme is open source, and you can use it for any purpose,
-              personal or commercial.
+            <div class="col-md-6 col-xl-8">
+                <div class="text-center">
+                    <h1>Thông tin dịch Covid-19 trên thế giới</h1>
+                    <p class="text-left">Chủ nhật, ngày 5/9/2021</p>
+                </div><br>
+                <div class="text-left">
+                    <a href="#">
+                        <h2>Ấn Độ chiếm một nửa số ca mắc Covid-19 trên thế giới.</h2>
+                    </a>
+                    <div class="text-center"><img class="img-thumbnail" src="assets/img/corona-vaccine-an-do-6521-reuters-1620430236830685852321.jpg"></div>
+                    <div>
+                        <p class="text-left border-primary shadow">Theo số liệu trang <strong>Worldometers.info</strong>, tính đến 8 giờ 30 phút ngày 9-5 (giờ Việt Nam), toàn thế giới ghi nhận hơn 154,17 triệu ca nhiễm Covid-19, trong đó có hơn 158,30 triệu ca đã hồi phục và 3.295.974 ca tử vong.
+                            Trong 24 giờ qua, thế giới ghi nhận hơn 775 nghìn ca nhiễm Covid-19, số ca tử vong ở mức hơn 12.600 ca.</p>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <a href="#">
+                        <h2>WHO Thúc đẩy phân phối công bằng Vaccine ngừa Covid 19</h2>
+                    </a>
+                    <div class="text-center"><img class="img-thumbnail" src="assets/img/d0805wto-1620505160333.jpg"></div>
+                    <div class="bg-light shadow-sm">
+                        <p class="text-left shadow">&nbsp;Ngày 7-5, <strong>Tổ chức Y tế thế giới (WHO)</strong> kêu gọi Nhóm các nước công nghiệp phát triển (G7) ưu tiên bảo đảm việc tiếp cận công bằng vắc-xin ngừa Covid-19 trên toàn cầu; nhấn mạnh thực trạng bất bình
+                            đẳng hiện nay là điều không thể chấp nhận được về mặt đạo đức. Trong gần 1,25 tỷ liều vắc-xin được tiêm tại ít nhất 210 nước, vùng lãnh thổ, chỉ 0,3% số đó là ở 29 quốc gia có thu nhập thấp nhất.</p>
+                    </div>
+                </div>
+                <div class="text-left">
+                    <a href="#">
+                        <h2><span style="text-decoration: underline;">Thái Lan tăng cường xét nghiệm để ngăn chặn các ổ dịch ở thủ đô Bangkok</span></h2>
+                    </a>
+                    <div class="text-center"><img class="img-thumbnail" src="assets/img/vaccine-1620473103083.jpg"></div>
+                    <div>
+                        <p class="text-left border-primary shadow">Nhằm giảm tốc độ lây lan của dịch Covid-19 ở thủ đô Bangkok, nhà chức trách Thái Lan đang mở rộng phạm vi xét nghiệm Covid-19 trên diện rộng ra khắp thành phố. Chiến dịch đặt mục tiêu mỗi ngày sẽ xét nghiệm được cho khoảng 3.000
+                            người thuộc các nhóm có nguy cơ cao trong những ngày tới.</p>
+                    </div>
+                </div>
+                <div class="text-right"><button class="btn btn-link text-right border-pretty" style="color:#ce9c95;" type="button">Xem thêm<i class="icon ion-android-arrow-forward"></i></button></div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="text-center">
+                    <div class="card"><img class="card-img w-100 d-block border rounded-0 align-items-start align-items-xl-center" src="assets/img/covid-19%20(2).png" height="100" style="opacity: 1;filter: blur(5px);">
+                        <div class="card-img-overlay">
+                            <h3 class="text-monospace text-uppercase text-center shadow">tin mới</h3>
+                        </div>
+                    </div>
+                </div><br>
+                <div>
+                    <div class="text-center">
+                        <a href="#"><img class="img-thumbnail" src="assets/img/E606C544_6AA1_4318_B3B5_60DB3EB-1620541013207.jpeg"></a>
+                    </div>
+                    <a href="#">
+                        <h5>EU không ủng hộ miễn trừ bản quyền đối với vaccine ngừa Covid-19.<br></h5>
+                    </a>
+                </div>
+                <div>
+                    <div class="text-center">
+                        <a href="#"><img class="img-thumbnail" src="assets/img/francevaccine-1620482346275.jpg"></a>
+                    </div>
+                    <a href="#">
+                        <h5>EU đặt mua thêm 1,8 tỷ liều vaccine Pfizer.<br></h5>
+                    </a>
+                </div>
+                <div>
+                    <div class="text-center">
+                        <a href="#"><img class="img-thumbnail" src="assets/img/2-1620456832809.jpeg"></a>
+                    </div>
+                    <a href="#">
+                        <h5>Ấn Độ lần đầu ghi nhận hơn 4000 ca tử vong trong một ngày.</h5>
+                    </a>
+                </div>
+                <div>
+                    <div class="text-center">
+                        <a href="#"><img class="img-thumbnail" src="assets/img/1-1620544739661.jpeg"></a>
+                    </div>
+                    <a href="#">
+                        <h5><span style="text-decoration: underline;">Biến thể đẩy nhanh tốc độ lây lan Covid-19 tại Ấn Độ</span><br></h5>
+                    </a>
+                </div>
+                <div class="text-right"><button class="btn btn-link text-right border-pretty" style="color:#ce9c95;" type="button">Xem thêm<i class="icon ion-android-arrow-forward"></i></button></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="vaccin" id="vaccin">
+      <section id="vaccine" style="background: rgb(0, 0, 0); width: 100%">
+        <div
+          class="container"
+          style="margin-left: 173.5px; margin-right: -173.5px"
+        >
+          <div
+            style="
+              margin-left: -185px;
+              padding: 0px;
+              padding-left: 13px;
+              margin-right: -22px;
+              text-align: center;
+            "
+          >
+            <p
+              style="
+                color: rgb(251, 252, 252);
+                font-size: 40px;
+                margin-right: 62px;
+                margin-left: 0px;
+                margin-top: 10px;
+                text-align: left;
+              "
+            >
+              VACCINE
             </p>
-            <p>
-              This theme features stock photos by&nbsp;<a href="#"
-                >Gratisography</a
-              >&nbsp;along with a custom Google Maps skin courtesy of&nbsp;<a
-                href="#"
-                >Snazzy Maps</a
-              >.
-            </p>
-            <p>
-              Grayscale includes full HTML, CSS, and custom JavaScript files
-              along with SASS and LESS files for easy customization!
-            </p>
+            <div class="row">
+              <div
+                class="col-sm-8 text-monospace text-nowrap text-truncate text-break text-uppercase"
+                style="
+                  width: 578px;
+                  height: 644px;
+                  padding-left: 17px;
+                  padding-right: 0px;
+                "
+              >
+                <header style="height: 75px; width: 752.323px; text-align: left">
+                  <p
+                    style="
+                      background: #000000;
+                      color: rgb(255, 255, 255);
+                      font-size: 35px;
+                      font-family: SCDC;
+                      margin-left: 22px;
+                    "
+                  >
+                    Tin nóng
+                  </p>
+                </header>
+                <div style="width: 792.323px; height: 513px">
+                  <img
+                    data-bss-hover-animate="pulse"
+                    src="assets/img/tử%20vong.gif"
+                    style="
+                      height: 522px;
+                      width: 765.55px;
+                      opacity: 1;
+                      transform: translate(7px);
+                      margin-left: 0px;
+                    "
+                  /><i class="fa fa-star"></i>
+                </div>
+              </div>
+              <div class="col-sm-4 col-md-4" style="width: 359.656px">
+                <h1
+                  style="
+                    color: rgb(254, 254, 254);
+                    font-size: 35px;
+                    font-family: SCDC;
+                    height: 50px;
+                    margin-top: 11px;
+                    text-align: center;
+                  "
+                >
+                  TIN LIÊN QUAN
+                </h1>
+                <div
+                  class="row"
+                  style="
+                    padding-right: 32px;
+                    width: 385.656px;
+                    margin-left: -19px;
+                    margin-right: -20px;
+                  "
+                >
+                  <div
+                    class="col"
+                    style="padding-right: -33px; height: 132px; width: 117.333px"
+                  >
+                    <img
+                      data-bss-hover-animate="pulse"
+                      src="assets/img/vacxin-covid-19-h1.jpg"
+                      style="
+                        width: 132px;
+                        height: 125.469px;
+                        margin-top: 7px;
+                        padding: 0px;
+                        padding-right: 2px;
+                        margin-right: 7px;
+                        margin-left: -5px;
+                      "
+                    />
+                  </div>
+                  <div class="col" style="width: 216.323px; text-align: left">
+                    <div class="row">
+                      <div
+                        class="col"
+                        style="
+                          width: 116.323px;
+                          padding: -1px;
+                          padding-right: 54px;
+                          padding-bottom: 0px;
+                          text-align: left;
+                          letter-spacing: 0px;
+                          line-height: 17px;
+                        "
+                      >
+                        <a
+                          data-bss-hover-animate="pulse"
+                          href="#"
+                          style="
+                            text-align: left;
+                            padding-left: 2px;
+                            margin-left: -5px;
+                            color: #04aa6d;
+                          "
+                          >Các đối tượng được tiêm vaccine covid</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <p
+                          style="
+                            color: rgb(245, 245, 245);
+                            width: 177.333px;
+                            margin-bottom: -17px;
+                            height: 66px;
+                            font-style: oblique;
+                            font-size: 13px;
+                          "
+                        >
+                          Bộ y tế cho biết những đối tượng được ưu tiên ..<br /><br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col" style="height: 25px">
+                        <p style="color: rgb(255, 255, 255); font-size: 10px">
+                          Trần Hoài An
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    padding-right: 32px;
+                    width: 385.656px;
+                    margin-left: -19px;
+                    margin-right: -20px;
+                  "
+                >
+                  <div
+                    class="col"
+                    style="padding-right: -33px; height: 132px; width: 117.333px"
+                  >
+                    <img
+                      data-bss-hover-animate="pulse"
+                      src="assets/img/dtvn%20tiêm%20vc.jpeg"
+                      style="
+                        width: 132px;
+                        height: 125.469px;
+                        margin-top: 7px;
+                        padding: 0px;
+                        padding-right: 2px;
+                        margin-right: 7px;
+                        margin-left: -5px;
+                      "
+                    />
+                  </div>
+                  <div class="col" style="width: 216.323px; text-align: left">
+                    <div class="row">
+                      <div
+                        class="col"
+                        style="
+                          width: 199.323px;
+                          padding: -1px;
+                          padding-right: 54px;
+                          padding-bottom: 0px;
+                        "
+                      >
+                        <a
+                          href="#"
+                          style="
+                            text-align: left;
+                            padding-left: 2px;
+                            margin-left: -5px;
+                            color: #04aa6d;
+                          "
+                          >ĐTVN được tiêm vaccine đợt 1</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <p
+                          style="
+                            color: rgb(245, 245, 245);
+                            width: 177.333px;
+                            margin-bottom: -17px;
+                            height: 66px;
+                            font-size: 13px;
+                          "
+                        >
+                          Trước khi toán thể đội tuyển tập trung thì toàn..<br /><br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col" style="height: 25px">
+                        <p style="color: rgb(255, 255, 255); font-size: 10px">
+                          Lâm Hoàng Thắng
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    padding-right: 32px;
+                    width: 385.656px;
+                    margin-left: -19px;
+                    margin-right: -20px;
+                  "
+                >
+                  <div
+                    class="col"
+                    style="padding-right: -33px; height: 132px; width: 117.333px"
+                  >
+                    <img
+                      data-bss-hover-animate="pulse"
+                      src="assets/img/153467957_526687565392878_818077-1614145258702.jpg"
+                      style="
+                        width: 132px;
+                        height: 125.469px;
+                        margin-top: 7px;
+                        padding: 0px;
+                        padding-right: 2px;
+                        margin-right: 7px;
+                        margin-left: -5px;
+                      "
+                    />
+                  </div>
+                  <div class="col" style="width: 216.323px">
+                    <div class="row">
+                      <div
+                        class="col"
+                        style="
+                          width: 199.323px;
+                          padding: -1px;
+                          padding-right: 54px;
+                          padding-bottom: 0px;
+                          color: #04aa6d;
+                        "
+                      >
+                        <a
+                          href="#"
+                          style="
+                            text-align: left;
+                            padding-left: 2px;
+                            margin-left: -5px;
+                            color: #04aa6d;
+                          "
+                          >Lô vắc xin đầu tiên đã về đến việt nam</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row" style="text-align: left">
+                      <div class="col">
+                        <p
+                          style="
+                            color: rgb(245, 245, 245);
+                            width: 177.333px;
+                            margin-bottom: -17px;
+                            height: 72px;
+                            font-size: 13px;
+                          "
+                        >
+                          Sáng nay 117.600 liều vaccine Covid-19 đã về ...<br /><br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col" style="height: 25px">
+                        <p
+                          style="
+                            color: rgb(255, 255, 255);
+                            text-align: left;
+                            font-size: 10px;
+                          "
+                        >
+                          Nguyễn Long
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="row"
+                  style="
+                    padding-right: 32px;
+                    width: 385.656px;
+                    margin-left: -19px;
+                    margin-right: -20px;
+                  "
+                >
+                  <div
+                    class="col"
+                    style="padding-right: -33px; height: 132px; width: 117.333px"
+                  >
+                    <img
+                      data-bss-hover-animate="pulse"
+                      src="assets/img/vaccine2-1607513425640.jpg"
+                      style="
+                        width: 132px;
+                        height: 125.469px;
+                        margin-top: 7px;
+                        padding: 0px;
+                        padding-right: 2px;
+                        margin-right: 7px;
+                        margin-left: -5px;
+                      "
+                    />
+                  </div>
+                  <div class="col" style="width: 216.323px; text-align: left">
+                    <div class="row">
+                      <div
+                        class="col"
+                        style="
+                          width: 199.323px;
+                          padding: -1px;
+                          padding-right: 54px;
+                          padding-bottom: 0px;
+                        "
+                      >
+                        <a
+                          href="#"
+                          style="
+                            text-align: left;
+                            padding-left: 2px;
+                            margin-left: -5px;
+                            color: #04aa6d;
+                          "
+                          >Đức tuyển tình nguyện viên tham</a
+                        >
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <p
+                          style="
+                            color: rgb(245, 245, 245);
+                            width: 177.333px;
+                            margin-bottom: -17px;
+                            height: 72px;
+                            font-size: 13px;
+                          "
+                        >
+                          Việc nghiên cứu vaccine đang được tiến hành ti...<br /><br />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col" style="height: 25px">
+                        <p
+                          style="
+                            color: rgb(255, 255, 255);
+                            height: 28px;
+                            font-size: 10px;
+                          "
+                        >
+                          Lê Lết
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="width: 1057px; text-align: center">
+            <h1
+              style="
+                transform: translate(-167px);
+                margin-top: 34px;
+                color: rgb(255, 255, 255);
+                font-family: SCDC;
+                font-size: 35px;
+              "
+            >
+              NGHIÊN CỨU VACCINE
+            </h1>
+            <div
+              class="row"
+              style="
+                transform: translate(-152px);
+                text-align: center;
+                width: 1152px;
+              "
+            >
+              <div
+                class="col"
+                style="height: 263.719px; margin-top: 0px; margin-bottom: -5px"
+              >
+                <img
+                  data-bss-hover-animate="pulse"
+                  src="assets/img/vac-xin-covid-19.jpg"
+                  style="width: 249px; height: 182.729px; margin-bottom: 30px"
+                />
+                <div class="row" style="margin-top: -26px; margin-right: -19px">
+                  <div class="col" style="height: 41px">
+                    <a
+                      href="#"
+                      style="
+                        text-align: left;
+                        height: 18px;
+                        margin-top: 0px;
+                        width: 1px;
+                        color: #04aa6d;
+                      "
+                      >Vaccine covid 19 đã được cấp giấy chứng nhận lưu hành tại
+                      Mỹ</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img
+                  data-bss-hover-animate="pulse"
+                  src="assets/img/7a2vacxin.jpg"
+                  style="width: 250px; height: 186.729px"
+                />
+                <div class="row">
+                  <div class="col">
+                    <a href="#" style="text-align: left; color: #04aa6d"
+                      >Vaccine covid 19 đã được bắt đầu thử nghiệm trên chuột</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img
+                  data-bss-hover-animate="pulse"
+                  style="width: 250px; height: 186.729px"
+                  src="assets/img/c1%202.jpg"
+                />
+                <div class="row">
+                  <div class="col">
+                    <a href="#" style="text-align: left; color: #04aa6d"
+                      >Các nước trên thể giới tăng cường phát triển vaccine covid
+                      19</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img
+                  data-bss-hover-animate="pulse"
+                  src="assets/img/viet-nam-nghien-cuu-vac-xin-covid-19_zafe.jpg"
+                  style="width: 250px; height: 186.729px"
+                />
+                <div class="row">
+                  <div class="col">
+                    <a href="#" style="text-align: left; color: #04aa6d"
+                      >Kết quả nghiên cứu vaccine covid 19 bước đầu cho kết quả</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+              style="
+                transform: translate(-152px);
+                text-align: center;
+                width: 1152px;
+              "
+            >
+              <div
+                class="col"
+                style="height: 263.719px; margin-top: 0px; margin-bottom: -5px"
+              >
+                <img
+                  data-bss-hover-animate="pulse"
+                  src="assets/img/chau-phi-covid-19-190321.jpg"
+                  style="width: 249px; height: 182.729px; margin-bottom: 30px"
+                />
+                <div class="row" style="margin-top: -26px; margin-right: -19px">
+                  <div class="col" style="height: 41px">
+                    <a
+                      href="#"
+                      style="
+                        text-align: left;
+                        height: 18px;
+                        margin-top: 0px;
+                        width: 1px;
+                        color: #04aa6d;
+                      "
+                      >Cuộc chiến giành vaccine covid ở các nước nghèo</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img
+                  data-bss-hover-animate="pulse"
+                  src="assets/img/vaccine2-1607513425640.jpg"
+                  style="width: 250px; height: 186.729px"
+                />
+                <div class="row">
+                  <div class="col">
+                    <a href="#" style="text-align: left; color: #04aa6d"
+                      >Vaccine covid 19 đã được cấp giấy chứng nhận lưu hành tại
+                      Mỹ</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img
+                  data-bss-hover-animate="pulse"
+                  style="width: 250px; height: 186.729px"
+                  src="assets/img/20200320_164739_716762_vacxin-duoc-san-xua.max-1800x1800.jpg"
+                />
+                <div class="row">
+                  <div class="col">
+                    <a href="#" style="text-align: left; color: #04aa6d"
+                      >Mất bao lâu để phát triển hoàn thiện vaccine covid 19</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img
+                  data-bss-hover-animate="pulse"
+                  src="assets/img/download.jpg"
+                  style="width: 250px; height: 186.729px"
+                />
+                <div class="row">
+                  <div class="col">
+                    <a href="#" style="text-align: left; color: #04aa6d"
+                      >Yêu cầu cấp bách về việc phát triển vaccine covid 19</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            style="
+              transform: translate(-152px);
+              text-align: center;
+              width: 1027px;
+            "
+          >
+            <button
+              class="btn btn-primary"
+              type="button"
+              style="
+                width: 125.5px;
+                height: 47px;
+                transform: translate(43px);
+                margin-bottom: 53px;
+                background: #04aa6d;
+              "
+            >
+              THÊM
+            </button>
           </div>
         </div>
-      </div>
-    </section>
-    <section
-      class="text-center download-section content-section"
-      id="vietnamese"
-      style="background-image: url('img/downloads-bg.jpg')"
-    >
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
-          <h1>Download Grayscale</h1>
-          <p>You can download Grayscale for free on the preview page.</p>
-          <button class="btn btn-primary btn-lg btn-default" type="button">
-            visit download page
-          </button>
-        </div>
-      </div>
-    </section>
-    <section class="text-center content-section" id="world">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p>
-              Feel free to leave us a comment on the<a href="#"
-                >&nbsp;Grayscale template overview page</a
-              >&nbsp;to give some feedback about this theme!
-            </p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                &nbsp;<button
-                  class="btn btn-primary btn-lg btn-default"
-                  type="button"
-                >
-                  <i class="fa fa-google-plus fa-fw"></i
-                  ><span class="network-name">&nbsp; Google+</span>
-                </button>
-              </li>
-              <li class="list-inline-item">
-                &nbsp;<button
-                  class="btn btn-primary btn-lg btn-default"
-                  type="button"
-                >
-                  <i class="fa fa-twitter fa-fw"></i
-                  ><span class="network-name">&nbsp;Twitter</span>
-                </button>
-              </li>
-              <li class="list-inline-item">
-                &nbsp;<button
-                  class="btn btn-primary btn-lg btn-default"
-                  type="button"
-                >
-                  <i class="fa fa-github fa-fw"></i
-                  ><span class="network-name">&nbsp;github</span>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="text-center content-section" id="vaccin">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p>
-              Feel free to leave us a comment on the<a href="#"
-                >&nbsp;Grayscale template overview page</a
-              >&nbsp;to give some feedback about this theme!
-            </p>
-            <ul class="list-inline banner-social-buttons">
-              <li class="list-inline-item">
-                &nbsp;<button
-                  class="btn btn-primary btn-lg btn-default"
-                  type="button"
-                >
-                  <i class="fa fa-google-plus fa-fw"></i
-                  ><span class="network-name">&nbsp; Google+</span>
-                </button>
-              </li>
-              <li class="list-inline-item">
-                &nbsp;<button
-                  class="btn btn-primary btn-lg btn-default"
-                  type="button"
-                >
-                  <i class="fa fa-twitter fa-fw"></i
-                  ><span class="network-name">&nbsp;Twitter</span>
-                </button>
-              </li>
-              <li class="list-inline-item">
-                &nbsp;<button
-                  class="btn btn-primary btn-lg btn-default"
-                  type="button"
-                >
-                  <i class="fa fa-github fa-fw"></i
-                  ><span class="network-name">&nbsp;github</span>
-                </button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="text-center content-section" id="download">
+      </section>
+    </div>
+    <div class="bootstrapMain" id="download" style="background-color: darkgreen;">
+    <section class="text-center content-section" >
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
@@ -383,6 +1459,8 @@
         </div>
       </div>
     </section>
+    </div>
+    <div class="bootstrapMain">
     <footer class="footer-dark">
       <div class="container">
         <div class="row">
@@ -405,11 +1483,28 @@
         <p class="copyright">Design by Team 4</p>
       </div>
     </footer>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="js/grayscale.js"></script>
     <script src="js/myFunction.js"></script>
     <script src="js/footer.js"></script>
+
+    <script src="js/jquery01.js"></script>
+  <script src="js/wow01.js"></script>
+  <script src="js/bootstrap01.js"></script>
+  <script src="js/slick01.js"></script>
+  <script src="js/jquery.li-scroller01.js"></script>
+  <script src="js/jquery.newsTicker01.js"></script>
+  <script src="js/jquery.fancybox.pack01.js"></script>
+  <script src="js/custom01.js"></script>
+<!-- 
+  <script src="assets/js/jquery1.min.js"></script>
+  <script src="assets/js/bootstrap1.min.js"></script>
+
+  <script src="js/jquery2.min.js"></script>
+    <script src="js/bootstrap2.min.js"></script>
+    <script src="js/script2.min.js"></script> -->
   </body>
 </html>
